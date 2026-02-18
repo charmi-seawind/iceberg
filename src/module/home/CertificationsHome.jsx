@@ -3,37 +3,24 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import Container from "../../components/Container";
 import certi1 from "../../assets/certificate/certi1.png";
 import certi2 from "../../assets/certificate/certi2.png";
-import certi3 from "../../assets/home/certi-3.avif";
-import certi4 from "../../assets/home/certi4.avif";
+
 
 const journeyData = [
   {
     year: "2023",
-    title: "BIS Certification",
+    title: "CGA Cluster of Achievers",
     description:
-      "Iceberg was founded with a simple vision: to bridge the gap between complex technology and intuitive design. We started in a small home office with just three passionate creators.",
+      "Awarded to Virtual Filaments Private Limited for pioneering innovation in AI-powered education technology.Recognizes excellence in transforming learning experiences through intelligent, scalable, and future-ready digital solutions.",
     image: certi1,
   },
   {
     year: "2022",
-    title: "ISO 9001 & 14001",
+    title: "India Education Summit & Awards",
     description:
-      "We landed our first global client and expanded our team to 15 specialists.",
+      "Honoring Virtual Filaments Private Limited for redefining digital education through breakthrough innovation.Recognizes exceptional impact in delivering transformative, technology-driven learning solutions.",
     image: certi2,
   },
-  {
-    year: "2021",
-    title: "CE / ROHS",
-    description:
-      "Awarded 'Agency of the Year' for Innovation with AI-driven solutions.",
-    image: certi3,
-  },
-  {
-    year: "2020",
-    title: "Google EDLA",
-    description: "Recognized globally for interactive board compliance.",
-    image: certi4,
-  },
+  
 ];
 
 const CertificationsHome = () => {
@@ -126,7 +113,7 @@ const CertificationsHome = () => {
                     <h4 className="text-xl sm:text-2xl md:text-4xl font-semibold uppercase tracking-tighter mb-4 sm:mb-6">
                       {item.title}
                     </h4>
-                    <p className="text-gray-500 text-sm sm:text-base md:text-lg leading-relaxed mb-6 sm:mb-8 max-w-lg">
+                    <p className="text-gray-500 text-sm sm:text-base md:text-lg leading-relaxed mb-6 sm:mb-8 ">
                       {item.description}
                     </p>
 
