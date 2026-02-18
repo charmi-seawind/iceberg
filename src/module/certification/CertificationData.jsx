@@ -7,14 +7,14 @@ import certi2 from "../../assets/certificate/certi2.png";
 
 const journeyData = [
   {
-    year: "2020",
+    year: "2025",
     title: "CGA Cluster of Achievers",
     description:
       "Awarded to Virtual Filaments Private Limited for pioneering innovation in AI-powered education technology.Recognizes excellence in transforming learning experiences through intelligent, scalable, and future-ready digital solutions.",
     image: certi1,
   },
   {
-    year: "2021",
+    year: "2025",
     title: "India Education Summit & Awards",
     description:
       "Honoring Virtual Filaments Private Limited for redefining digital education through breakthrough innovation.Recognizes exceptional impact in delivering transformative, technology-driven learningsolutions.",
